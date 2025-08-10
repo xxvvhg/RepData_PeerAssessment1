@@ -1,25 +1,12 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-output: 
+author: ""
+output:
   html_document:
-    keep_md: true
+    toc: true
+    toc_depth: 2
+    number_sections: true
 ---
 
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.path = "figure/")
